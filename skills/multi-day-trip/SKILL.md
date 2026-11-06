@@ -1,6 +1,6 @@
 ---
 name: multi-day-trip
-description: Plan a multi-day or longer-than-300-km motorbike trip with Your Rides by splitting it into daily legs, each planned and saved as its own route. Use when the rider asks for a weekend trip, a tour, a trip over several days, or any route longer than 300 km.
+description: Plan a multi-day or longer-than-300-km motorbike trip with Your Rides by splitting it into daily legs, each planned and saved as its own route. Use when the rider asks for a weekend trip, a tour, a trip over several days, or any route longer than 300 km. Motorbikes only — not for cycling, hiking or car trips.
 ---
 
 # Plan a multi-day motorbike trip

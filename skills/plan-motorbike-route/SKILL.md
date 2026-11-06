@@ -1,6 +1,6 @@
 ---
 name: plan-motorbike-route
-description: Plan an enjoyable motorbike ride with the Your Rides tools — a curvy A→B route or a round-trip loop from home, sized to a time or distance budget, shown on an interactive map and saved to the rider's account on request. Use when the rider asks for a ride, a loop, a route to somewhere, or "where should I ride today".
+description: Plan an enjoyable motorbike ride with the Your Rides tools — a curvy A→B route or a round-trip loop from home, sized to a time or distance budget, shown on an interactive map and saved to the rider's account on request. Use when the rider asks for a ride, a loop, a route to somewhere, or "where should I ride today". Motorbikes only — do not use for bicycle, walking or car routes.
 ---
 
 # Plan a motorbike route with Your Rides

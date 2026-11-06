@@ -21,8 +21,11 @@ Plan motorbike rides by chatting with Claude or ChatGPT. Ask for "a 3-hour curvy
 **Claude Code**
 
 ```bash
-/plugin install your-rides --marketplace jorgeCollinet/your-rides-plugin
+/plugin marketplace add jorgeCollinet/your-rides-plugin
+/plugin install your-rides@your-rides
 ```
+
+Then run `/mcp`, pick `plugin:your-rides:your-rides` and sign in.
 
 or add the connector alone:
 
