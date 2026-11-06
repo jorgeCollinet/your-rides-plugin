@@ -1,0 +1,21 @@
+{
+  "name": "your-rides",
+  "version": "1.0.0",
+  "description": "Plan motorbike routes with Your Rides: curvy A→B and round-trip routes on an interactive map, saved straight to your account for the phone app. Also reviews your recorded rides.",
+  "author": {
+    "name": "Your Rides",
+    "email": "support@kodspear.com",
+    "url": "https://rides.kodspear.com/privacy"
+  },
+  "homepage": "https://rides.kodspear.com/ai",
+  "repository": "https://github.com/jorgeCollinet/your-rides-plugin",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "motorcycle",
+    "motorbike",
+    "route planning",
+    "maps",
+    "rides",
+    "travel"
+  ]
+}

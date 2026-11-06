@@ -1,0 +1,77 @@
+Your Rides Plugin License, version 1.0
+
+Copyright (c) 2026 Your Rides (operator details: https://rides.kodspear.com/privacy)
+
+1. Scope
+
+This license covers the files in this repository (the "Plugin"): its manifests,
+configuration, skills, prompts, documentation and images. It does not cover the
+Your Rides service itself (the apps, website, API and MCP server, together the
+"Service"), which is governed by the Your Rides Terms of Service
+(https://rides.kodspear.com/terms).
+
+2. What you may do
+
+Your Rides grants you a free, worldwide, non-exclusive, non-transferable,
+revocable license to use, copy and modify the Plugin, and to share it (modified
+or not), but only for the purpose of using or connecting to the Service. For
+example, you may:
+  a. install and use the Plugin with any AI assistant or client application
+     (such as Claude, Claude Code, ChatGPT or Codex);
+  b. adapt its format, manifests or skills so that it works in another
+     assistant, client or plugin system, as long as it still connects to the
+     Service;
+  c. share such an adapted version free of charge, under the conditions in
+     section 4.
+
+3. What you may not do
+
+You may not, and may not help others to:
+  a. use the Plugin, or any part of it (including its skills and prompts), with
+     any service other than the Service, or to build, improve or promote a
+     product or service that offers functionality similar to the Service;
+  b. use the Plugin, or any part of it, to develop, train, fine-tune or
+     benchmark a model or dataset for such a competing product or service;
+  c. sell, rent or charge for the Plugin or any version of it, or include it in
+     a paid product, app or service;
+  d. present the Plugin, or any version you changed, as official or endorsed by
+     Your Rides;
+  e. use the "Your Rides" name, logo or other branding, except to state
+     truthfully that your version connects to Your Rides.
+
+4. Conditions for sharing
+
+If you share the Plugin or a version you changed, you must:
+  a. include a copy of this license;
+  b. keep every copyright and attribution notice;
+  c. state clearly that you changed it, if you did, and that your version is not
+     provided or endorsed by Your Rides.
+
+5. Ownership
+
+The Plugin is licensed, not sold. Your Rides keeps all rights, title and
+interest in the Plugin. Any right not expressly granted in this license is
+reserved.
+
+6. Termination
+
+This license ends automatically if you break it. Your Rides may also end it at
+any time by notice, for example on the repository. When it ends, you must stop
+using and sharing the Plugin and delete all copies, including changed versions.
+
+7. No warranty
+
+THE PLUGIN IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NON-INFRINGEMENT. ROUTES ARE SUGGESTIONS ONLY: YOU ARE
+RESPONSIBLE FOR CHECKING THEM AND FOR FOLLOWING TRAFFIC LAWS, ROAD SIGNS AND
+LOCAL CONDITIONS.
+
+8. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, YOUR RIDES WILL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES, OR FOR ANY LOSS OF
+PROFITS, REVENUE OR DATA, ARISING OUT OF OR RELATED TO THE PLUGIN OR THIS
+LICENSE.
+
+Questions about this license: support@kodspear.com

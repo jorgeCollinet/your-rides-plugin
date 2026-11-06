@@ -1,0 +1,35 @@
+{
+  "$schema": "https://agent-plugins.org/schema/1.0.0/plugin.json",
+  "name": "your-rides",
+  "version": "1.0.0",
+  "description": "Plan motorbike routes on an interactive map and save them to your Your Rides account.",
+  "author": {
+    "name": "Your Rides",
+    "email": "support@kodspear.com",
+    "url": "https://rides.kodspear.com/privacy"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "skills": "./skills",
+  "mcpServers": "./mcp.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Your Rides",
+        "shortDescription": "Plan motorbike rides on a map",
+        "longDescription": "Your Rides plans motorbike rides with you. Ask for a curvy afternoon loop from home, an A-to-B route with a coffee stop, or a multi-day trip, and it plans real routes with a motorcycle routing engine that favours twisty roads. Each route appears on an interactive map where you can change curviness, avoid motorways or tolls, add, remove and reorder stops, or change the loop length, then plan again. When you like it, save it to your Your Rides account and start it from the phone app with turn-by-turn navigation. It can also look back at your recorded rides and riding stats. Routes are up to 300 km each, with best coverage in Germany, Austria and the Czech Republic. Requires a free Your Rides account.",
+        "developerName": "Your Rides",
+        "category": "Travel",
+        "capabilities": [
+          "Interactive",
+          "Write"
+        ],
+        "websiteURL": "https://rides.kodspear.com/ai",
+        "supportURL": "https://rides.kodspear.com/support",
+        "privacyPolicyURL": "https://rides.kodspear.com/privacy",
+        "termsOfServiceURL": "https://rides.kodspear.com/terms",
+        "logo": "./assets/icon.png",
+        "defaultPrompt": "Plan a 150 km curvy loop from my home for this afternoon"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "your-rides": {
+      "type": "http",
+      "url": "https://api.kodspear.com/mcp"
+    }
+  }
+}

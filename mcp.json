@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "your-rides": {
+      "type": "streamable-http",
+      "url": "https://api.kodspear.com/mcp",
+      "auth": {
+        "type": "oauth",
+        "client": { "mode": "dcr" }
+      }
+    }
+  }
+}
