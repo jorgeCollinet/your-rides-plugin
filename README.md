@@ -1,6 +1,6 @@
 # Your Rides plugin
 
-Plan motorbike rides by chatting with Claude or ChatGPT. Ask for "a 3-hour curvy loop from home" or "a route to Český Krumlov avoiding motorways" and the assistant plans it with the [Your Rides](https://rides.kodspear.com) motorcycle routing engine, which favours twisty roads. The route appears on an interactive map where you can change curviness, avoid motorways or tolls, add or reorder stops, or change the loop length and plan again. Save it to your account and start it from the Your Rides phone app with turn-by-turn navigation. The assistant can also review the rides you have recorded.
+Plan motorbike rides by chatting with Claude, ChatGPT or Grok. Ask for "a 3-hour curvy loop from home" or "a route to Český Krumlov avoiding motorways" and the assistant plans it with the [Your Rides](https://rides.kodspear.com) motorcycle routing engine, which favours twisty roads. The route appears on an interactive map where you can change curviness, avoid motorways or tolls, add or reorder stops, or change the loop length and plan again. Save it to your account and start it from the Your Rides phone app with turn-by-turn navigation. The assistant can also review the rides you have recorded.
 
 ## What's inside
 
@@ -42,6 +42,16 @@ codex mcp login your-rides
 ```
 
 The last command opens your browser to sign in.
+
+**Grok Build**
+
+```bash
+grok mcp add --transport http your-rides https://api.kodspear.com/mcp
+```
+
+Grok opens your browser to sign in the first time it uses the connector. If you already installed the plugin in Claude Code, Grok Build picks it up automatically.
+
+**Grok (grok.com)** — Connectors → add a custom connector with `https://api.kodspear.com/mcp` (custom connectors need a paid Grok plan).
 
 **Claude (claude.ai / desktop)** — Settings → Connectors → find Your Rides, or add a custom connector with `https://api.kodspear.com/mcp`.
 
