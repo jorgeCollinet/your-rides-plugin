@@ -5,6 +5,17 @@ description: Plan an enjoyable motorbike ride with the Your Rides tools — a cu
 
 # Plan a motorbike route with Your Rides
 
+## First: the rider must be signed in
+
+The Your Rides tools only work after the rider has signed in to Your Rides with OAuth. If the tools are missing, or a call fails with an authentication or "needs auth" error, **stop**. Don't plan routes or guess ride data from your own knowledge. Tell the rider to sign in first, then try again:
+
+- Claude Code: run `/mcp`, pick `plugin:your-rides:your-rides` (or `your-rides`), choose **Authenticate**.
+- Codex: run `codex mcp login your-rides`.
+- Grok Build: open `/mcps`, select `your-rides`, press `i`.
+- Claude, ChatGPT or Grok on the web: connect Your Rides in the connector or app settings and sign in.
+
+A free Your Rides account is required; guest accounts can't connect.
+
 Work generate-and-test: pick candidate places, geocode them, run them through the
 routing engine, keep what flows, and show the result on the map.
 

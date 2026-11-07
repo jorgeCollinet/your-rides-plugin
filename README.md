@@ -14,9 +14,11 @@ Plan motorbike rides by chatting with Claude, ChatGPT or Grok. Ask for "a 3-hour
 ## Requirements
 
 - A free Your Rides account (sign up at [rides.kodspear.com](https://rides.kodspear.com) or in the iOS / Android app). Guest accounts can't connect.
-- You sign in with OAuth on first use and approve access on the Your Rides consent screen. The assistant never sees your password.
+- You must sign in once, with OAuth, before the tools work: you approve access on the Your Rides consent screen in your browser. The assistant never sees your password.
 
 ## Install
+
+Two steps: **install**, then **sign in**. Installing only adds the plugin. The Your Rides tools stay unavailable until you sign in with your Your Rides account (OAuth in your browser), so do that before your first request.
 
 **Claude Code**
 
@@ -25,23 +27,18 @@ Plan motorbike rides by chatting with Claude, ChatGPT or Grok. Ask for "a 3-hour
 /plugin install your-rides@your-rides
 ```
 
-Then run `/mcp`, pick `plugin:your-rides:your-rides` and sign in.
+Sign in: run `/mcp`, pick `plugin:your-rides:your-rides`, choose **Authenticate** and approve access in your browser.
 
-or add the connector alone:
-
-```bash
-claude mcp add --transport http your-rides https://api.kodspear.com/mcp
-```
+Connector only, without the skills: `claude mcp add --transport http your-rides https://api.kodspear.com/mcp`, then sign in the same way.
 
 **Codex**
 
 ```bash
 codex plugin marketplace add jorgeCollinet/your-rides-plugin
 codex plugin add your-rides@your-rides
-codex mcp login your-rides
 ```
 
-The last command opens your browser to sign in.
+Sign in: `codex mcp login your-rides` (opens your browser).
 
 **Grok Build**
 
@@ -49,13 +46,15 @@ The last command opens your browser to sign in.
 grok mcp add --transport http your-rides https://api.kodspear.com/mcp
 ```
 
-Grok opens your browser to sign in the first time it uses the connector. If you already installed the plugin in Claude Code, Grok Build picks it up automatically.
+Sign in: open `/mcps`, select `your-rides` and press `i` (or Grok opens your browser the first time it uses the connector). If you already installed the plugin in Claude Code, Grok Build picks it up automatically.
 
-**Grok (grok.com)** — Connectors → add a custom connector with `https://api.kodspear.com/mcp` (custom connectors need a paid Grok plan).
+**Grok (grok.com)** — Connectors → add a custom connector with `https://api.kodspear.com/mcp`, then sign in when asked (custom connectors need a paid Grok plan).
 
-**Claude (claude.ai / desktop)** — Settings → Connectors → find Your Rides, or add a custom connector with `https://api.kodspear.com/mcp`.
+**Claude (claude.ai / desktop)** — Settings → Connectors → find Your Rides, or add a custom connector with `https://api.kodspear.com/mcp`, then click **Connect** and sign in.
 
-**ChatGPT** — find Your Rides in the apps directory and click Connect.
+**ChatGPT** — find Your Rides in the apps directory, click **Connect** and sign in.
+
+**Check it worked:** ask "What does Your Rides know about me?". If the assistant says the Your Rides tools aren't available or need authentication, the sign-in step hasn't finished yet.
 
 ## Permissions
 

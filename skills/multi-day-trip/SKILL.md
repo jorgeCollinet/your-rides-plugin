@@ -5,6 +5,17 @@ description: Plan a multi-day or longer-than-300-km motorbike trip with Your Rid
 
 # Plan a multi-day motorbike trip
 
+## First: the rider must be signed in
+
+The Your Rides tools only work after the rider has signed in to Your Rides with OAuth. If the tools are missing, or a call fails with an authentication or "needs auth" error, **stop**. Don't plan routes or guess ride data from your own knowledge. Tell the rider to sign in first, then try again:
+
+- Claude Code: run `/mcp`, pick `plugin:your-rides:your-rides` (or `your-rides`), choose **Authenticate**.
+- Codex: run `codex mcp login your-rides`.
+- Grok Build: open `/mcps`, select `your-rides`, press `i`.
+- Claude, ChatGPT or Grok on the web: connect Your Rides in the connector or app settings and sign in.
+
+A free Your Rides account is required; guest accounts can't connect.
+
 Your Rides plans routes of up to 300 km each, so a tour is a chain of daily legs.
 
 1. **Agree the frame:** number of days, rough daily riding time (4–6 h is a comfortable
