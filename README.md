@@ -33,6 +33,16 @@ or add the connector alone:
 claude mcp add --transport http your-rides https://api.kodspear.com/mcp
 ```
 
+**Codex**
+
+```bash
+codex plugin marketplace add jorgeCollinet/your-rides-plugin
+codex plugin add your-rides@your-rides
+codex mcp login your-rides
+```
+
+The last command opens your browser to sign in.
+
 **Claude (claude.ai / desktop)** — Settings → Connectors → find Your Rides, or add a custom connector with `https://api.kodspear.com/mcp`.
 
 **ChatGPT** — find Your Rides in the apps directory and click Connect.

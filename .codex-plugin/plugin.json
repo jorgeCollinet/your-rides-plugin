@@ -1,0 +1,35 @@
+{
+  "name": "your-rides",
+  "version": "1.0.2",
+  "description": "Plan motorbike routes on an interactive map and save them to your Your Rides account.",
+  "author": {
+    "name": "Your Rides",
+    "email": "support@kodspear.com",
+    "url": "https://rides.kodspear.com/privacy"
+  },
+  "homepage": "https://rides.kodspear.com/ai",
+  "repository": "https://github.com/jorgeCollinet/your-rides-plugin",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": ["motorcycle", "motorbike", "route planning", "maps", "rides", "travel"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Your Rides",
+    "shortDescription": "Plan motorbike rides on a map",
+    "longDescription": "Your Rides plans motorbike rides with you. Ask for a curvy afternoon loop from home, an A-to-B route with a coffee stop, or a multi-day trip, and it plans real routes with a motorcycle routing engine that favours twisty roads. Save a route to your Your Rides account and start it from the phone app with turn-by-turn navigation. It can also look back at your recorded rides and riding stats. Routes are up to 300 km each, with best coverage in Germany, Austria and the Czech Republic. Requires a free Your Rides account.",
+    "developerName": "Your Rides",
+    "category": "Travel",
+    "capabilities": ["Interactive", "Write"],
+    "websiteURL": "https://rides.kodspear.com/ai",
+    "privacyPolicyURL": "https://rides.kodspear.com/privacy",
+    "termsOfServiceURL": "https://rides.kodspear.com/terms",
+    "defaultPrompt": [
+      "Plan a 150 km curvy loop from my home",
+      "Route me to Český Krumlov avoiding motorways",
+      "How far did I ride last month?"
+    ],
+    "brandColor": "#F2761F",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png"
+  }
+}

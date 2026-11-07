@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schema/1.0.0/plugin.json",
   "name": "your-rides",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plan motorbike routes on an interactive map and save them to your Your Rides account.",
   "author": {
     "name": "Your Rides",
